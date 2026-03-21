@@ -675,18 +675,18 @@
       text-transform: uppercase;
       margin-bottom: 14px;
     }
-.service-img1 img{
+    .service-img1 img{
     height: 200px;
-}
-.service-img3 img{
+    }
+   .service-img3 img{
     height: 200px;
-}
-.service-img4 img{
+   }
+   .service-img4 img{
     height: 200px;
-}
-.service-img6 img{
+   }
+  .service-img6 img{
     height: 200px;
-}
+   }
 
     .services-header h2 {
       font-family: 'Playfair Display', serif;
