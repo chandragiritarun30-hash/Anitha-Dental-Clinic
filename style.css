@@ -675,6 +675,9 @@
       text-transform: uppercase;
       margin-bottom: 14px;
     }
+.service-img1{
+    height: 200px;
+}
 
     .services-header h2 {
       font-family: 'Playfair Display', serif;
