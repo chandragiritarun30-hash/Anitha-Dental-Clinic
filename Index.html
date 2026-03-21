@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LifePath – Seamless Dental Care</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+
+            <a href="#" class="nav-logo" aria-label="WaveInterface Home">
+                <div class="logo-icon">
+                    <img src="assets\logo.png" alt="">
+                </div>
+                <span class="logo-text">Anitha Dental</span>
+            </a>
+
+            <ul class="nav-links" role="list">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false"
+                aria-controls="mobileMenu">
+                <span></span><span></span><span></span>
+            </button>
+
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true" role="dialog" aria-label="Mobile navigation">
+        <div class="mobile-menu-inner">
+            <div class="mobile-nav-item"><a href="#">Services</a></div>
+            <div class="mobile-nav-item"><a href="#">About us</a></div>
+            <div class="mobile-nav-item"><a href="#">Contact</a></div>
+        </div>
+    </div>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Smile With <br> Confidence Again</h1>
+            <p>Professional dental care using modern technology
+                to keep your smile healthy and bright.</p>
+            <a href="#" class="btn-primary">Reach Us <button>→</button></a>
+        </div>
+        <div class="hero-img-wrap">
+            <!-- Replace src with your actual image -->
+            <img src="assets\image.png" alt="Dental Hero" class="hero-bg-img" />
+        </div>
+    </section>
+
+    <!-- ===== SECTION 2 – A Simple Way to Save ===== -->
+    <section class="who-section" id="about">
+
+        <div class="who-left">
+            <!-- LEFT: your doctor image -->
+            <div class="bg-img-design "></div>
+
+            <!-- RIGHT: white card overlapping -->
+            <div class="image-card">
+                <img src="assets\about.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="who-right">
+
+            <div class="who-text">
+                <h1>Who <span>We Are</span></h1>
+                <p>
+                    With over 15 years of experience in dental care, LifePath Dental has been
+                    dedicated to providing exceptional oral health services to thousands of
+                    patients. Our team of skilled professionals combines advanced technology
+                    with compassionate care to deliver smiles that last a lifetime.
+                </p>
+            </div>
+
+            <div class="who-stats" id="whoStats">
+
+                <div class="stat-item" data-target="15181">
+                    <div class="stat-number"><span class="count-val">0</span>+</div>
+                    <div class="stat-label">Patients</div>
+                </div>
+
+                <div class="stat-item" data-target="539">
+                    <div class="stat-number"><span class="count-val">0</span>+</div>
+                    <div class="stat-label">Cosmetic Surgery</div>
+                </div>
+
+                <div class="stat-item" data-target="3242">
+                    <div class="stat-number"><span class="count-val">0</span>+</div>
+                    <div class="stat-label">Hours Of Work</div>
+                </div>
+
+                <div class="stat-item" data-target="823">
+                    <div class="stat-number"><span class="count-val">0</span>+</div>
+                    <div class="stat-label">Dental Implants</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== SECTION 3 – Services We Provide ===== -->
+    <div class="service-header">
+        <h1> Our Services</h1>
+    </div>
+    <div class="services-grid">
+
+        <!-- Row 1 -->
+        <div class="service-card">
+            <div class="service-icon">🦷</div>
+            <h3>Consultation</h3>
+            <p>We detect and treat cavities early to protect your teeth and prevent further damage.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🦷</div>
+            <h3>Scaling & Polishing</h3>
+            <p>Pain-free root canal procedures using the latest technology for a smooth recovery.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🦷</div>
+            <h3>Root Canal treatment(RCT)</h3>
+            <p>Professional whitening treatments to brighten your smile and boost your confidence.</p>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="service-card">
+            <div class="service-icon">🦷</div>
+            <h3>Dental Implants</h3>
+            <p>Permanent implant solutions that look and feel just like your natural teeth.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🦷</div>
+            <h3>Dental Fillings</h3>
+            <p>Safe and precise oral surgery performed by experienced dental professionals.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🦷</div>
+            <h3>Zirconia Crowns</h3>
+            <p>Modern braces and aligners to give you a straighter, more confident smile.</p>
+        </div>
+
+    </div>
+
+    <!-- ===== SECTION 4 – Doctor Section ===== -->
+    <section class="doctor-section" id="doctor">
+
+        <!-- Heading -->
+        <div class="doctor-heading">
+            <h2>Our Doctor</h2>
+            <div class="divider">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Layout -->
+        <div class="doctor-layout">
+
+            <!-- LEFT: your doctor image -->
+            <div class="doctor-img-block">
+                <img src="assets\9cd6e3e1-fe5f-4d4b-a6be-6b22aa9b4dd4.webp" alt="Dr. Mike Roger" />
+            </div>
+
+            <!-- RIGHT: white card overlapping -->
+            <div class="doctor-card">
+                <h3>Dr. Anitha Jyothi</h3>
+                <div class="doctor-role">Principal Dentist BDS</div>
+                <p>Over 15 years of Experience. sampele text : consectetur adipiscing elit. Etiam nibh lorem,
+                    tristique a augue ac, vestibulum vestibulum nunc. In ultricies id risus
+                    tincidunt sed amet ultrices.</p>
+                <p>Nulla venenatis erat feugiat condimentum varius. In feugiat in nibh non
+                    scelerisque. Aenean non ante feugiat, iaculis aliquam leo.</p>
+
+                <div class="doctor-socials">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="Dribbble">◎</a>
+                    <a href="#" aria-label="Pinterest">𝐏</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ===== SECTION 6 – Testimonials ===== -->
+    <section class="testimonials-section" id="testimonials">
+
+        <div class="testimonials-header">
+            <h2>What Our Clients Say</h2>
+            <p>Real feedback from our patients who trust us with their smiles.</p>
+        </div>
+
+        <div class="testimonials-carousel" id="testimonialsCarousel">
+            <div class="testimonials-track" id="testimonialsTrack">
+
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">Ever since we switched to this platform, our team collaboration has
+                        improved
+                        dramatically. It's fast, reliable, and intuitive.</p>
+                    <div class="testimonial-bottom">
+                        <div class="testimonial-author">
+                            <img src="assets/client1.jpg" alt="Nina Wulandari" />
+                            <div>
+                                <strong>Nina Wulandari</strong>
+                                <span>Freelance Designer</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">★★★★★</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">The dental team made me feel so comfortable. Best experience I've had
+                        at any
+                        clinic. Highly recommend to everyone!</p>
+                    <div class="testimonial-bottom">
+                        <div class="testimonial-author">
+                            <img src="assets/client2.jpg" alt="Karen Martin" />
+                            <div>
+                                <strong>Karen Martin</strong>
+                                <span>Business Owner</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">★★★★★</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">Absolutely professional and caring staff. My smile has never looked
+                        better. I'll
+                        be coming back for years to come.</p>
+                    <div class="testimonial-bottom">
+                        <div class="testimonial-author">
+                            <img src="assets/client3.jpg" alt="Nash Martin" />
+                            <div>
+                                <strong>Nash Martin</strong>
+                                <span>Software Engineer</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">★★★★★</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">Modern facilities, friendly doctors, and painless procedures. I was
+                        nervous at
+                        first but they made everything easy.</p>
+                    <div class="testimonial-bottom">
+                        <div class="testimonial-author">
+                            <img src="assets/client4.jpg" alt="Rock Martin" />
+                            <div>
+                                <strong>Rock Martin</strong>
+                                <span>Teacher</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">★★★★★</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">I've been a patient here for 3 years. The team is always warm,
+                        thorough, and
+                        genuinely cares about your health.</p>
+                    <div class="testimonial-bottom">
+                        <div class="testimonial-author">
+                            <img src="assets/client5.jpg" alt="Sara Lee" />
+                            <div>
+                                <strong>Sara Lee</strong>
+                                <span>Marketing Manager</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">★★★★★</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="testimonials-nav">
+            <button id="testimonialsPrev">←</button>
+            <button id="testimonialsNext">→</button>
+        </div>
+
+        <div class="testimonials-dots" id="testimonialsDots"></div>
+
+    </section>
+
+
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-left">
+                <h3>Offerings From Bright<br>News &amp; Social</h3>
+                <div class="footer-email">
+                    <input type="email" placeholder="Your Email" />
+                    <button>→</button>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Home</h4>
+                    <ul>
+                        <li><a href="#">Who we are</a></li>
+                        <li><a href="#">Changing solution</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press releases</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>By Media</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Podcasts</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Podcast</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-brand">
+            <span>LifePath</span>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
