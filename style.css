@@ -664,7 +664,7 @@
       -ms-grid-columns: 1fr 24px 1fr 24px 1fr;
       grid-template-columns: repeat(3, 1fr);
       gap: 24px;
-      max-width: 1300px;
+      max-width: 1100px;
       margin: 0 auto;
     }
 
