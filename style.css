@@ -654,56 +654,7 @@
     /* ============================================================
    SERVICES SECTION
    ============================================================ */
-    .service-header {
-      text-align: center;
-      margin: 40px 0px;
-      font-size: 32px;
-    }
-
-    /* ── Section Header ── */
-    .services-header {
-      text-align: center;
-      margin-bottom: 56px;
-    }
-
-    .services-header .eyebrow {
-      display: inline-block;
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 2.5px;
-      color: #888;
-      text-transform: uppercase;
-      margin-bottom: 14px;
-    }
-    .service-img1 img{
-    height: 200px;
-    }
-   .service-img3 img{
-    height: 200px;
-   }
-   .service-img4 img{
-    height: 200px;
-   }
-  .service-img6 img{
-    height: 200px;
-   }
-
-    .services-header h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(1.8rem, 3vw, 2.6rem);
-      font-weight: 700;
-      color: #1a1a1a;
-      line-height: 1.2;
-      margin-bottom: 14px;
-    }
-
-    .services-header p {
-      font-size: 0.9rem;
-      color: #555;
-      max-width: 420px;
-      margin: 0 auto;
-      line-height: 1.7;
-    }
+  
   .services-grid {
       display: -ms-grid;
       display: grid;
