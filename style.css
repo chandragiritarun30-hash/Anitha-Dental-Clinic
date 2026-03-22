@@ -665,7 +665,7 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 24px;
       max-width: 1300px;
-      margin: 20 auto;
+      margin: 0 auto;
     }
 
     .card {
